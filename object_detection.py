@@ -5,8 +5,8 @@ import time
 from tflite_runtime.interpreter import Interpreter
 
 # setting up path variables
-MODEL_PATH = os.getcwd() + "/Sample_TFLite_model/detect.tflite"
-LABELS_PATH = os.getcwd() + "/Sample_TFLite_model/labelmap.txt"
+MODEL_PATH = os.getcwd() + "/ssd_mobilenet/ssd_mobilenet_v1.tflite"
+LABELS_PATH = os.getcwd() + "/ssd_mobilenet/labelmap.txt"
 
 # reading from coco labels 
 file = open(LABELS_PATH, "r") 
